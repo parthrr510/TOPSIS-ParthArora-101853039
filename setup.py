@@ -8,7 +8,7 @@ setup(
     author='parthrr510',
     author_email='parthrr510@gmail.com',
     url='https://github.com/parthrr510/TOPSIS-ParthArora-101853039.git',
-    download_url='',
+    download_url='https://github.com/parthrr510/TOPSIS-ParthArora-101853039/archive/v_01.tar.gz',
     keywords=['TOPSIS','RANKING','DATAFRAME','MCDM'],
     install_requires=[
         'pandas',
@@ -25,3 +25,4 @@ setup(
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
     ],
+)
