@@ -7,8 +7,8 @@ def readme():
 
 setup(
     name="TOPSIS-ParthArora-101853039",
-    packages = ['TOPSIS-ParthArora-101853039'],
-    version = '0.1',
+    packages = ['TOPSIS_ParthArora_101853039'],
+    version = '1.0',
     license = 'MIT',
     description = 'This Package is for calculating the TOPSIS score and rank of a dataset and storing it in a result csv file',
     long_description=readme(),
@@ -33,4 +33,9 @@ setup(
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
     ],
+    entry_points={
+        "console_scripts": [
+            'Topsis=TOPSIS_ParthArora_101853039.Topsis:main',
+        ]
+    },
 )
