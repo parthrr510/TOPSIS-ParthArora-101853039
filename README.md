@@ -1,12 +1,12 @@
 # TOPSIS-ParthArora-101853039
 By:**Parth Arora-101853039**
 
-###Title:Multiple Criteria Decision Making using TOPSIS
+### Title:Multiple Criteria Decision Making using TOPSIS
 
-##What is TOPSIS:
+## What is TOPSIS:
 TOPSIS is an acronym that stands for 'Technique of Order Preference Similarity to the Ideal Solution' and is a pretty straightforward MCDA method.
 It is a multi-criteria decision analysis method, which was originally developed by Ching-Lai Hwang and Yoon in 1981 with further developments by Yoon in 1987, and Hwang, Lai and Liu in 1993.
-####How to install the TOPSIS package
+#### How to install the TOPSIS package
 ```buildoutcfg
 pip install TOPSIS-ParthArora-101853039
 ```
@@ -15,7 +15,7 @@ pip install TOPSIS-ParthArora-101853039
 Topsis data.csv "0.25,0.25,0.25,0.25" "-,+,+,+" result.csv
 ```
 
-#####Input File(Example:data.csv):
+##### Input File(Example:data.csv):
 Argument used to pass the path of the input file which conatins a dataset having different fields and to perform the topsis mathematical operations
 ##### Weights(Example:"0.25,0.25,0.25,0.25")
 The weights to assigned to the different parameters in the dataset should be passed in the argument.**It must be seperated by ','.**
