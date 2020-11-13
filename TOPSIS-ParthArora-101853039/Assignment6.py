@@ -70,7 +70,7 @@ def cal_performance(sp,sn,collen):
         p.append(sn[i]/a)
     return p
 
-def topsis():
+def main():
     #No of paramters
     parameters = len(sys.argv)
     #Checking Number of Paramters passed is correct
@@ -140,3 +140,6 @@ def topsis():
     df['Rank'] = df['Topsis Score'].rank(ascending=False)
     #Exporting the dataframe to the result file
     df.to_csv(result_path,index=False)
+
+if __name__ == "__main__":
+    main()
